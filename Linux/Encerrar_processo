@@ -1,5 +1,10 @@
-1 - Identificar o Processo Rodando
+1 - Identificar o Processo Rodando 
+
+(Ubuntu)
 sudo ss -tulnp | grep :PORTA
+
+(MAC)
+lsof -i :PORTA
 
 2 - Matar processo
 sudo kill -9 PID 
