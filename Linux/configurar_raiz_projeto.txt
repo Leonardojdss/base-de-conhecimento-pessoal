@@ -1,0 +1,3 @@
+Configurar o PYTHONPATH no ambiente para incluir o diretório raiz do projeto. Por exemplo:
+
+export PYTHONPATH=pasta/raiz/do/projeto
