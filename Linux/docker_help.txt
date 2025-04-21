@@ -1,0 +1,8 @@
+#build
+docker build -t nome_container .
+
+#run
+docker run -d -p 8000:8000 nome_container
+
+-d acompanhar os logs
+-p especificar as portas
