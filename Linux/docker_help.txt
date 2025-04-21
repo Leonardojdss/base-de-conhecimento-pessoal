@@ -6,3 +6,13 @@ docker run -d -p 8000:8000 nome_container
 
 -d nao acompanhar os logs
 -p especificar as portas
+
+#forcar encerramento de container
+sudo docker rm -f id_container
+
+#logs container
+docker logs id_container
+
+#deletar image
+sudo docker rmi id_image
+
