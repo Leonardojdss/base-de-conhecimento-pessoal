@@ -7,7 +7,7 @@ sudo ss -tulnp | grep :PORTA
 lsof -i :PORTA
 
 2 - Matar processo
-sudo kill -9 PID 
+sudo kill <PID> 
 
 3 - Exemplo
 
@@ -17,4 +17,4 @@ tcp   LISTEN 0      128          0.0.0.0:80         0.0.0.0:*    users:(("stream
 tcp   LISTEN 0      128             [::]:80            [::]:*    users:(("streamlit",pid=3072,fd=7))
 
 3.2 Matar processo
-sudo kill -9 3072
+sudo kill 5624
