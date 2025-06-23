@@ -1,0 +1,3 @@
+#criar link python macos
+
+sudo ln -sf $(which python3) /usr/local/bin/python
