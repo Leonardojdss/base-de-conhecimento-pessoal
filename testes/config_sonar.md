@@ -1,5 +1,5 @@
 ## Criar arquivo sonar-project.properties
-´´´sh
+```sh
 # Root project information
 sonar.projectKey=RAG-new-algorithm
 sonar.projectName=RAG-new-algorithm
@@ -7,7 +7,7 @@ sonar.projectVersion=1.0
 
 # SonarQube Local configuration
 sonar.host.url=http://localhost:9000
-sonar.token=squ_2983121c98e7af3529611f4eb00ec6a2c7bec61a
+sonar.token=inserir_token
 
 # Path to source code
 sonar.sources=src
@@ -22,4 +22,4 @@ sonar.sourceEncoding=UTF-8
 
 # Exclude files
 sonar.exclusions=**/env/**,**/__pycache__/**,**/migrations/**
-´´´
+```
