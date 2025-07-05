@@ -23,3 +23,7 @@ sonar.sourceEncoding=UTF-8
 # Exclude files
 sonar.exclusions=**/env/**,**/__pycache__/**,**/migrations/**
 ```
+## Executar comando
+```bash
+sonar-scanner
+```
