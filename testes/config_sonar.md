@@ -46,3 +46,9 @@ sonar.code_smells.threshold=10
 ```bash
 sonar-scanner
 ```
+
+OU
+```bash
+pip install pysonar
+pysonar
+```
