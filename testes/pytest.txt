@@ -1,0 +1,17 @@
+pytest
+Executa todos os testes do projeto e mostra um resumo dos resultados.
+  
+pytest tests/test_bank.py
+Executa apenas os testes do arquivo test_bank.py.
+  
+pytest -v
+Executa todos os testes e mostra detalhes (verbose) de cada teste.
+
+pytest --maxfail=1
+Para a execução após o primeiro teste falhar.
+
+pytest -k "nome_do_teste"
+Executa apenas os testes que correspondem ao nome informado.
+
+pytest --tb=short
+Mostra um traceback mais curto em caso de erro.
