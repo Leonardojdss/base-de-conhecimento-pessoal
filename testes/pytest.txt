@@ -15,3 +15,27 @@ Executa apenas os testes que correspondem ao nome informado.
 
 pytest --tb=short
 Mostra um traceback mais curto em caso de erro.
+
+pytest --disable-warnings
+Oculta avisos durante a execução dos testes.
+
+pytest --cov=src
+Gera relatório de cobertura de testes para o diretório src (requer o pacote pytest-cov).
+
+pytest --lf
+Executa apenas os testes que falharam na última execução.
+
+pytest --ff
+Executa primeiro os testes que falharam na última execução, depois os demais.
+
+pytest --durations=5
+Mostra os 5 testes mais lentos.
+
+pytest --collect-only
+Apenas coleta e lista os testes, sem executá-los.
+
+pytest -x
+Para a execução após o primeiro erro.
+
+pytest --pdb
+Inicia o debugger interativo ao encontrar um erro.
