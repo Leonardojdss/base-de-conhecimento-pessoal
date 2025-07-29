@@ -25,6 +25,9 @@ Oculta avisos durante a execução dos testes.
 pytest --cov=src
 Gera relatório de cobertura de testes para o diretório src (requer o pacote pytest-cov).
 
+pytest --cov=src tests/ --cov-report term-missing
+Gera relatório de cobertura de testes para o diretório src e demonstra as linhas sem cobertura
+
 pytest --lf
 Executa apenas os testes que falharam na última execução.
 
