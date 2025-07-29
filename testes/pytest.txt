@@ -7,6 +7,9 @@ Executa apenas os testes do arquivo test_bank.py.
 pytest -v
 Executa todos os testes e mostra detalhes (verbose) de cada teste.
 
+pytest -v -m calculate_bonus
+Executa todos os testes com o decorator calculate_bonus (@mark.calculate_bonus)
+
 pytest --maxfail=1
 Para a execução após o primeiro teste falhar.
 
