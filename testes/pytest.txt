@@ -31,6 +31,9 @@ Gera relatório de cobertura de testes para o diretório src e demonstra as linh
 pytest --cov=src tests/ --cov-report html
 Gera relatório de cobertura de testes para o diretório src e demonstra relátorio detalhada em HTML
 
+pytest --junitxml report.xml
+Gera relatório xml
+
 pytest --lf
 Executa apenas os testes que falharam na última execução.
 
