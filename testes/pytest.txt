@@ -28,6 +28,9 @@ Gera relatório de cobertura de testes para o diretório src (requer o pacote py
 pytest --cov=src tests/ --cov-report term-missing
 Gera relatório de cobertura de testes para o diretório src e demonstra as linhas sem cobertura
 
+pytest --cov=src tests/ --cov-report html
+Gera relatório de cobertura de testes para o diretório src e demonstra relátorio detalhada em HTML
+
 pytest --lf
 Executa apenas os testes que falharam na última execução.
 
