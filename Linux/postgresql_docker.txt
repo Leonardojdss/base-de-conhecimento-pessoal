@@ -1,0 +1,18 @@
+# Realizar docker pull e na sêquencia iniciar, sem volume
+docker run -d
+--name postgres
+-p 5432:5432
+-e POSTGRES_USER=admin
+-e POSTGRES_PASSWORD=admin
+-e POSTGRES_DB=database_dev
+postgres:latest
+
+# Acessar via pgadmin4 ou dbeaver
+Host: localhost
+Port: 5432
+Username: admin
+Password: admin
+
+# Acessar linha de comando
+psql -h localhost -p 5432 -U admin -d database_dev
+(password: admin)
