@@ -1,0 +1,3 @@
+pip freeze | xargs pip uninstall -y
+
+Esse comando pega todos os pacotes instalados e os desinstala de uma vez.
