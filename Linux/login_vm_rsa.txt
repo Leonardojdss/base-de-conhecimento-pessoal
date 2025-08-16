@@ -1,0 +1,5 @@
+1 - garantir que sua chave não fique visível publicamente
+chmod 400 "chaves_acesso.pem"
+
+2 - Acessar com chave pública rsa
+ssh -i "chaves_acesso.pem" ubuntu@<DNS_PUBLICA>
