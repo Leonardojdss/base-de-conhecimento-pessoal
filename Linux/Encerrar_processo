@@ -7,7 +7,7 @@ sudo ss -tulnp | grep :PORTA
 lsof -i :PORTA
 
 2 - Matar processo
-sudo kill <PID> 
+sudo kill -9 <PID> 
 
 3 - Exemplo
 
